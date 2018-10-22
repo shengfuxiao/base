@@ -136,7 +136,7 @@
 // console.log(pow3(3));
 // 因为 pow() 返回的是一个函数，函数需要一个参数，所以 第136行条用函数的时候需要添加一个实参
 
-// 关于 this 对象
+// 关于 this 对象  这是github上的修改
 
 var name = 'Shawn';
 var obj = {
