@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>iframe</title>
+</head>
+<style type="text/css">
+	div {
+		box-sizing: border-box;
+	}
+	.content {
+		width: 100%;
+		padding: 0 220px 0 220px;
+		box-sizing: border-box;
+	}
+	.main,.left,.right {
+		position: relative;
+		float: left;
+		min-height: 200px;
+	}
+	.main {
+		width: 100%;
+		background: blue;
+		border: 1px solid #000;
+	}
+	.left {
+		width: 220px;
+		background: red;
+		margin-left: -100%;
+		left: -220px;
+	}
+	.right {
+		width: 220px;
+		background: yellow;
+		margin-left: -220px;
+		right: -220px;
+	}
+</style>
+<body>
+	<div class="content">
+		<div class="main">main</div>
+		<div class="left">left</div>
+		<div class="right">right</div>
+	</div>
+</body>
+</html>

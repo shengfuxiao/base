@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		// 加 label 标签可以随意跳转出来
+		// top:
+		// 	for (var i = 0; i < 3; i++){
+		// 		for (var j = 0; j < 3; j++){
+		// 		  if (i === 1 && j === 1) break top;
+		// 		  console.log('i=' + i + ', j=' + j);
+		// 		}
+		// 	};
+
+		// label 跳出语句块
+		// foo: {
+		// 		console.log(1);
+		// 		break foo;  // 注意要加 break 才能退出
+		// 		console.log('本行不会输出');
+		// 	}
+		// 	console.log(2);
+
+		// top:
+		// 	for (var i = 0; i < 3; i++){
+		// 		for (var j = 0; j < 3; j++){
+		// 			if (i === 1 && j === 1) continue top; //可以去掉 这里的 top 去实验
+		// 			console.log('i=' + i + ', j=' + j);
+		// 		}
+		// 	}
+
+		
+		// var o = {};
+		// var a = [];
+
+		// o instanceof Array // false
+		// console.log(o instanceof Array,'ooo')
+		// a instanceof Array // true
+		// console.log(a instanceof Array,'aaa')
+
+		// if (null) {
+		// 	console.log('null	')
+		// }
+
+		// var person = { name: '老张',age: '9' };
+		
+		// for (var key in person) {
+		// 	if (person.hasOwnProperty(key)) {
+		// 		'age' == key && console.log(person[key]);
+		// 	}
+		// }
+
+
+		var arr = [123, 456, 789];
+		var len = arr.length;
+		var end = arr[len-1]
+		console.log('end:', end)
+
+		var array = [1,2,3,4,5,6];
+		console.log(array.slice(-1)[0]);
+		console.log(array.slice(-2));
+	</script>
+</head>
+<body>
+
+</body>
+</html>
